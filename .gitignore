@@ -1,0 +1,28 @@
+# Environments & virtualenv
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & database
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.db
+*.sqlite
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.env.local
+
+# Logs & temp
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
